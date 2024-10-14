@@ -1,0 +1,16 @@
+Algoritmo sin_titulo
+	Escribir "este programa calcula el cambio que se le dara al cliente"
+	definir PRECIO,PAGO Como Real
+	definir DEVOLUCION Como Real
+	
+	escribir "ingrese el precio del producto"
+	leer PRECIO;
+	
+	escribir "ingrese el pago recibido por el cliente"
+	leer PAGO;
+	
+	DEVOLUCION=PAGO-PRECIO
+	
+	escribir "al cliente le sobra:"
+	escribir DEVOLUCION;
+FinAlgoritmo

@@ -1,0 +1,24 @@
+Algoritmo sin_titulo
+	escribir "este programa ayuda a calcular la distancia entre 2 puntos dadas sus cordenadas"
+	definir x1,y1 Como Real
+	definir x2,y2 como real
+	definir distancia Como Real
+	
+	escribir " ingrese el valor de X en el punto 1"
+	leer x1;
+	
+	escribir " ingrese el valor de Y en el punto 1"
+	leer y1;
+	
+	escribir " ingrese el valor de X en el punto 2"
+	leer x2;
+	
+	escribir " ingrese el valor de Y en el punto 2"
+	leer y2;
+	
+	distancia=(((x1-x2)^2) + ((y1-y2)^2))^(1/2)
+	
+	escribir "la distancia entre el punto 1 y el punto 2 es igual a:"
+	escribir distancia;
+	
+FinAlgoritmo

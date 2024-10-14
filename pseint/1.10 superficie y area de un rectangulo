@@ -1,0 +1,20 @@
+Algoritmo sin_titulo
+	Escribir "bienvenidos!, este programa calcula la superficie y el perimerto de un rectangulo"
+	definir BASE, ALTURA Como Real
+	definir SUPERFICIE, PERIMETRO Como Real
+	
+	Escribir "ingrese la altura del rectangulo"
+	Leer ALTURA;
+	
+	Escribir "ingrese la base del rectangulo"
+	Leer BASE;
+	
+	SUPERFICIE=BASE*ALTURA
+	Escribir "la superficie es:"
+	Escribir SUPERFICIE;
+	
+	PERIMETRO=(2*(BASE+ALTURA))
+	Escribir "el perimetro es:"
+	Escribir PERIMETRO;
+FinAlgoritmo
+

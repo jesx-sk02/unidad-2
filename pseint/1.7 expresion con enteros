@@ -1,0 +1,16 @@
+Algoritmo sin_titulo
+	escribir "este programa resuelve la expresion ((A+B)^2)3 dados 2 numeros enteros"
+	Definir A,B Como Entero
+	definir resultado Como Real
+	
+	escribir "introduzca el valor de A"
+	leer A;
+	
+	escribir "introduzca el valor de B"
+	leer B;
+	
+	resultado=((A+B)^2)/3
+	escribir "el resultado de la expresion es:"
+	escribir resultado;
+	
+FinAlgoritmo

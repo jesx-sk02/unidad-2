@@ -1,0 +1,21 @@
+Algoritmo sin_titulo
+	escribir " este programa ayudara a convertir galones a litor y calcular su precio"
+	definir galones Como Real
+	definir galon como real
+	definir litros Como Real
+	definir preciolitro Como Real
+	definir cobro como real
+	
+	Escribir "escriba cantidad de galones vendidos"
+	leer galones;
+	
+	galon=3.785
+	
+	preciolitro=8.20
+	
+	cobro=galones*galon*preciolitro
+	escribir "la cantidad a cobrar por"
+	escribir galones;
+	escribir "ES DE"
+	escribir cobro;
+FinAlgoritmo

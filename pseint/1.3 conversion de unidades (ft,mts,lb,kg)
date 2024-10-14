@@ -1,0 +1,31 @@
+Algoritmo sin_titulo
+	escribir "Hola! este programa convierte el peso y la altura de tu dinosaurio, de pies y libras a kilogramos y metros"
+	
+	definir NOMBRE Como Caracter
+	definir PESOLIBRAS Como Real
+	definir ALTURAPIES Como Real
+	definir PESOKG Como Real
+	definir ALTURAMETROS como real
+	
+	escribir "ingrese el nombre de su dinosaurio"
+	leer NOMBRE;
+	
+	escribir "ingrese el peso en libras"
+	leer PESOLIBRAS;
+	
+	escribir "ingrese la longitud de su dinosaurio en pies"
+	leer ALTURAPIES;
+	
+	NOMBRE=NOMBRE
+	escribir "el dinosaurio de nombre:"
+	escribir NOMBRE;
+	
+	PESOKG=PESOLIBRAS*0.453592
+	escribir " pesa en kilogramos:"
+	escribir PESOKG;
+	
+	ALTURAMETROS=ALTURAPIES*0.3048
+	escribir "su altura en metros es"
+	escribir ALTURAMETROS;
+	
+FinAlgoritmo

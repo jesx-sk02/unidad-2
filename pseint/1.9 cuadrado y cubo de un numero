@@ -1,0 +1,17 @@
+Algoritmo sin_titulo
+	definir NUM como entero
+	definir CUADRADO Como Real
+	definir CUBO Como Real
+	
+	escribir "escribir valor del NUMERO"
+	leer NUM;
+	
+	escribir "el cuadrado del numero es"
+	CUADRADO=NUM^2
+	escribir CUADRADO;
+	
+	escribir "el cubo del numero es"
+	CUBO=NUM^3
+	escribir CUBO;
+	
+FinAlgoritmo

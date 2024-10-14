@@ -1,0 +1,25 @@
+Algoritmo sin_titulo
+	escribir "hola! este programa calcula el area y volumen de un cilindro"
+	
+	definir radio Como Real
+	definir altura Como Real
+	definir area Como Real
+	definir volumen como real
+	
+	escribir "ingrese la altura del cilindro"
+	leer altura;
+	
+	escribir "ingrese el radio"
+	leer radio;
+	
+	area=2*3.141592*radio*altura
+	
+	escribir "el area del cilindro es"
+	escribir area;
+	
+	volumen=3.141592*(radio^2)*altura
+	
+	escribir "el volumen del cilindro es"
+	escribir volumen;
+	
+FinAlgoritmo

@@ -1,0 +1,18 @@
+Algoritmo sin_titulo
+	escribir "este programa escrive valores enteros en orden inverso"
+	definir A,B,C,D como entero
+	
+	escribir "ingrese el valor de A"
+	leer A;
+	
+	escribir "ingrese el valor de B"
+	leer B;
+	
+	escribir "ingrese el valor de C"
+	leer C;
+	
+	escribir "ingrese el valor de D"
+	leer D;
+	
+	Escribir D,C,B,A;
+FinAlgoritmo

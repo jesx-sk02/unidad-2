@@ -1,0 +1,16 @@
+Algoritmo sin_titulo
+	escribir "con este programa calcule cuantos segundos hay en x cantidad de diad"
+	definir dias Como Entero
+	definir seg Como Real
+	
+	escribir "ingrese la cantidad de dias"
+	leer dias;
+	
+	seg=dias*24*60*60
+	
+	escribir "la cantidad de segundos en:"
+	Imprimir dias; escribir "dias"
+	
+	escribir "es igual a:"
+	imprimir seg; escribir "segundos"
+FinAlgoritmo

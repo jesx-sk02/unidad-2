@@ -1,0 +1,30 @@
+Algoritmo sin_titulo
+	definir MATRICULA Como Entero
+	DEFINIR CAL1,CAL2,CAL3,CAL4,CAL5 Como Real
+	DEFINIR PROMEDIO Como Real
+	
+	escribir "ingrese MATRICULA"
+	leer MATRICULA;
+	
+	escribir "ingrese CAL1"
+	leer CAL1;
+	
+	escribir "ingrese CAL2"
+	leer CAL2;
+	
+	escribir "ingrese CAL3"
+	leer CAL3;
+	
+	escribir "ingrese CAL4"
+	leer CAL4;
+	
+	escribir "ingrese CAL5"
+	leer CAL5;
+	MATRICULA=(MATRICULA)
+	Escribir "MATRICULA DEL ESTUDIANTE" 
+	Escribir MATRICULA;
+	PROMEDIO=(CAL1+CAL2+CAL3+CAL4+CAL5)/5
+	Escribir "EL PROMEDIO ES"
+	Escribir PROMEDIO;
+	
+FinAlgoritmo
